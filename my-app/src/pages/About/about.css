@@ -1,0 +1,19 @@
+
+.main {
+    height: 90vh;
+
+    width: 100vw;
+    background-image: url("https://thumbs.dreamstime.com/b/abstract-gradient-blue-light-background-retro-colors-lot-space-text-composition-art-image-website-magazine-97327659.jpg");
+
+}
+
+
+.para  {
+    overflow-y: hidden;
+  overflow-x: hidden;
+  text-align: center;
+  padding: 1rem;
+  margin: 0px;
+    font-family: "Josefin Sans", sans-serif;
+
+}

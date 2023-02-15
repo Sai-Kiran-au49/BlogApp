@@ -1,0 +1,56 @@
+.register {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to right, rgb(210, 120, 135) , rgb(213, 174, 174));
+}
+
+.registerTitle {
+  font-size: 50px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.registerForm {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.registerForm > label {
+  margin: 10px 0;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 500;
+}
+
+.registerInput {
+  padding: 10px;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.registerButton {
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: teal;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+
+
+.registerLoginButton {
+  position: absolute;
+  top: 60px;
+  right: 50px;
+  background-color: rgb(91, 35, 77);
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+}
